@@ -28,7 +28,7 @@ const onGalleryClick = (e) => {
     const source = e.target.dataset.source;
     
   const instance = basicLightbox.create(`
-    <img src="${source}"width="800" height="600">`);
+    <img src="${source} "width="800" height="600">`);
 
   instance.show();
 };
