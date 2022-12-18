@@ -14,7 +14,7 @@ const markup = galleryItems.reduce((acc, item) => acc + `
         <img class="gallery__image" src="${item.preview}" alt="${item.description}" data-source="${item.original}" alt="${item.description}"></img>
     </a>
 </li>
-</il>`, ' ');
+</li>`, ' ');
 
 
 
